@@ -23,7 +23,7 @@ public class Regulator {
         }
 
         private void message(RegulatorDisplayCodes code, AmbientTemperature temperature){
-
+            System.out.println("Action: " + code + " /nTemperature: " + temperature );
         }
 
     }
