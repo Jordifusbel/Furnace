@@ -1,6 +1,8 @@
 package org.mvpigs.heater;
 
+import org.mvpigs.ambientTemperature.AmbientTemperature;
+
 public interface Heater {
-    public void engage(ambientTemperature);
-    public void disengage(ambientTemperature);
+    public void engage(AmbientTemperature temp);
+    public void disengage(AmbientTemperature temp);
 }

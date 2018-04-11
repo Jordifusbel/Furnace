@@ -6,6 +6,6 @@ public class ThermometerImpl implements Thermometer {
 
 
     public Double read(AmbientTemperature temp){
-
+        return temp.getAmbientTemperature();
     }
 }
